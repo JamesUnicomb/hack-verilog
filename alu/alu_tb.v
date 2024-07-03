@@ -1,8 +1,8 @@
 module test;
 
   reg clk = 0;
-  reg [7:0] x = 17;
-  reg [7:0] y = 6;
+  reg [15:0] x = 17;
+  reg [15:0] y = 6;
   reg zx = 0;
   reg nx = 0;
   reg zy = 0;
@@ -11,7 +11,7 @@ module test;
   reg no = 0;
   wire zr;
   wire ng;
-  wire [7:0] out;
+  wire [15:0] out;
 
   initial begin
      // 0
@@ -180,7 +180,6 @@ module test;
      # 1 $finish;
   end
 
-  wire [7:0] value;
   alu alu(x, y, zx, nx, zy, ny, f, no, zr, ng, out);
 
   initial

@@ -12,24 +12,24 @@ module alu (
     out
   );
   
-    input      [7:0]   x;
-    input      [7:0]   y;
-    input             zx;
-    input             nx;
-    input             zy;
-    input             ny;
-    input              f;
-    input             no;
-    output reg        zr;
-    output reg        ng;
-    output reg [7:0] out;
+    input      [15:0]   x;
+    input      [15:0]   y;
+    input              zx;
+    input              nx;
+    input              zy;
+    input              ny;
+    input               f;
+    input              no;
+    output reg         zr;
+    output reg         ng;
+    output reg [15:0] out;
   
-  reg [7:0] x1;
-  reg [7:0] x2;
-  reg [7:0] y1;
-  reg [7:0] y2;
-  reg [7:0] fout;
-  reg [7:0] res;
+  reg [15:0] x1;
+  reg [15:0] x2;
+  reg [15:0] y1;
+  reg [15:0] y2;
+  reg [15:0] fout;
+  reg [15:0] res;
 
   always @* begin
     x1 = (zx ? 8'h00 : x);
