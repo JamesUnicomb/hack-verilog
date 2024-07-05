@@ -183,6 +183,6 @@ module test;
   alu alu(x, y, zx, nx, zy, ny, f, no, zr, ng, out);
 
   initial
-     $monitor("At time %t, x = %b, y = %b, zx = %b, nx = %b, zy = %b, ny = %b, f = %b, no = %b, zr = %b, ng = %b, out = %b, (%d)",
-              $time, x, y, zx, nx, zy, ny, f, no, zr, ng, out, out);
+     $monitor("At time %t, x = %b, y = %b, zx = %b, nx = %b, zy = %b, ny = %b, f = %b, no = %b, zr = %b, ng = %b, out = %b",
+              $time, x, y, zx, nx, zy, ny, f, no, zr, ng, out);
 endmodule // test

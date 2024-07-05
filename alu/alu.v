@@ -32,14 +32,14 @@ module alu (
   reg [15:0] res;
 
   always @* begin
-    x1 = (zx ? 8'h00 : x);
-    y1 = (zy ? 8'h00 : y);
-    x2 = (nx ? ~x1 : x1);
-    y2 = (ny ? ~y1 : y1);
-    fout = (f ? x2 + y2 : x2 & y2);
-    res = (no ? ~fout : fout);
-    ng = res[7];
-    zr = ~(|res);
-    out = res;
+    x1 <= (zx ? 8'h00 : x);
+    y1 <= (zy ? 8'h00 : y);
+    x2 <= (nx ? ~x1 : x1);
+    y2 <= (ny ? ~y1 : y1);
+    fout <= (f ? x2 + y2 : x2 & y2);
+    res <= (no ? ~fout : fout);
+    ng <= res[7];
+    zr <= ~(|res);
+    out <= res;
   end
 endmodule

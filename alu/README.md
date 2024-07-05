@@ -28,3 +28,31 @@ At time                   15, x = 0000000000010001, y = 0000000000000110, zx = 0
 At time                   16, x = 0000000000010001, y = 0000000000000110, zx = 0, nx = 0, zy = 0, ny = 0, f = 0, no = 0, zr = 1, ng = 0, out = 0000000000000000, (    0)
 At time                   17, x = 0000000000010001, y = 0000000000000110, zx = 0, nx = 1, zy = 0, ny = 1, f = 0, no = 1, zr = 0, ng = 0, out = 0000000000010111, (   23)
 ```
+
+To get a clearer look at the data (and the fact that the formatting doesnt take care of 2's complement):
+
+```
+bash process.sh
+```
+
+The expected output:
+```
+op (0): x = 17, y = 6, out = 0
+op (1): x = 17, y = 6, out = 1
+op (-1): x = 17, y = 6, out = -1
+op (x): x = 17, y = 6, out = 17
+op (y): x = 17, y = 6, out = 6
+op (!x): x = 17, y = 6, out = -18
+op (!y): x = 17, y = 6, out = -7
+op (-x): x = 17, y = 6, out = -17
+op (-y): x = 17, y = 6, out = -6
+op (x+1): x = 17, y = 6, out = 18
+op (y+1): x = 17, y = 6, out = 7
+op (x-1): x = 17, y = 6, out = 16
+op (y-1): x = 17, y = 6, out = 5
+op (x+y): x = 17, y = 6, out = 23
+op (x-y): x = 17, y = 6, out = 11
+op (y-x): x = 17, y = 6, out = -11
+op (x&y): x = 17, y = 6, out = 0
+op (x|y): x = 17, y = 6, out = 23
+```
