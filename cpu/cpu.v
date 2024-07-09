@@ -6,9 +6,7 @@ module cpu (
     outM,
     writeM,
     addressM,
-    pcaddr,
-    D_reg_out,
-    A_reg_out
+    pcaddr
   );
   
   // cpu variables

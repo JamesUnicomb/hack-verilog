@@ -9,13 +9,11 @@ module test;
   wire             writeM;
   wire [15:0]    addressM;
   wire [15:0]      pcaddr;
-  wire [15:0]   D_reg_out;
-  wire [15:0]   A_reg_out;
 
   always @(negedge clk)
     t <= t + 1;
 
-  cpu cpu(clk, inM, instruction, reset, outM, writeM, addressM, pcaddr, D_reg_out, A_reg_out);
+  cpu cpu(clk, inM, instruction, reset, outM, writeM, addressM, pcaddr);
 
   initial begin
     # 1 clk = !clk; 
@@ -503,6 +501,6 @@ module test;
 end
 
   initial
-     $monitor("t = %d, instruction = %b, clk = %b, outM = %d, writeM = %b, addressM = %d, pcaddr = %d, DRegister = %d, ARegister = %d",
-              t, instruction, clk, outM, writeM, addressM, pcaddr, D_reg_out, A_reg_out);
+     $monitor("t = %d, instruction = %b, clk = %b, outM = %b, writeM = %b, addressM = %b, pcaddr = %b",
+              t, instruction, clk, outM, writeM, addressM, pcaddr);
 endmodule
