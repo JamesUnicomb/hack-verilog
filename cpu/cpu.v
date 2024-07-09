@@ -171,7 +171,8 @@ module cpu (
     // output
     outM <= alu_out;
     pcaddr <= pc_out;
-    addressM <= A_reg_out;
+    addressM[14:0] <= A_reg_out;
+    addressM[15] <= 1'b0;
     writeM <= instruction[15] & instruction[3];    
   end
   

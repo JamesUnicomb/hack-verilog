@@ -1,97 +1,97 @@
-t =     0, instruction = 0000000000000000, clk = 0, outM =     0, writeM = 0, addressM =     0, pcaddr =     0, DRegister =     0, ARegister =     0
-t =     0, instruction = 0011000000111001, clk = 1, outM =     0, writeM = 0, addressM =     0, pcaddr =     0, DRegister =     0, ARegister =     0
-t =     1, instruction = 0011000000111001, clk = 0, outM =     0, writeM = 0, addressM = 12345, pcaddr =     1, DRegister =     0, ARegister = 12345
-t =     1, instruction = 1110110000010000, clk = 1, outM = 12345, writeM = 0, addressM = 12345, pcaddr =     1, DRegister =     0, ARegister = 12345
-t =     2, instruction = 1110110000010000, clk = 0, outM = 12345, writeM = 0, addressM = 12345, pcaddr =     2, DRegister = 12345, ARegister = 12345
-t =     2, instruction = 0101101110100000, clk = 1, outM = 65535, writeM = 0, addressM = 12345, pcaddr =     2, DRegister = 12345, ARegister = 12345
-t =     3, instruction = 0101101110100000, clk = 0, outM = 65535, writeM = 0, addressM = 23456, pcaddr =     3, DRegister = 12345, ARegister = 23456
-t =     3, instruction = 1110000111110000, clk = 1, outM = 11111, writeM = 0, addressM = 23456, pcaddr =     3, DRegister = 12345, ARegister = 23456
-t =     4, instruction = 1110000111110000, clk = 0, outM =     0, writeM = 0, addressM = 11111, pcaddr =     4, DRegister = 11111, ARegister = 11111
-t =     4, instruction = 0000001111101011, clk = 1, outM = 54425, writeM = 0, addressM = 11111, pcaddr =     4, DRegister = 11111, ARegister = 11111
-t =     5, instruction = 0000001111101011, clk = 0, outM = 54425, writeM = 0, addressM =  1003, pcaddr =     5, DRegister = 11111, ARegister =  1003
-t =     5, instruction = 1110001100001000, clk = 1, outM = 11111, writeM = 1, addressM =  1003, pcaddr =     5, DRegister = 11111, ARegister =  1003
-t =     6, instruction = 1110001100001000, clk = 0, outM = 11111, writeM = 1, addressM =  1003, pcaddr =     6, DRegister = 11111, ARegister =  1003
-t =     6, instruction = 0000001111101100, clk = 1, outM = 54425, writeM = 0, addressM =  1003, pcaddr =     6, DRegister = 11111, ARegister =  1003
-t =     7, instruction = 0000001111101100, clk = 0, outM = 54425, writeM = 0, addressM =  1004, pcaddr =     7, DRegister = 11111, ARegister =  1004
-t =     7, instruction = 1110001110011000, clk = 1, outM = 11110, writeM = 1, addressM =  1004, pcaddr =     7, DRegister = 11111, ARegister =  1004
-t =     8, instruction = 1110001110011000, clk = 0, outM = 11109, writeM = 1, addressM =  1004, pcaddr =     8, DRegister = 11110, ARegister =  1004
-t =     8, instruction = 0000001111101000, clk = 1, outM = 54426, writeM = 0, addressM =  1004, pcaddr =     8, DRegister = 11110, ARegister =  1004
-t =     9, instruction = 0000001111101000, clk = 0, outM = 54426, writeM = 0, addressM =  1000, pcaddr =     9, DRegister = 11110, ARegister =  1000
-t =     9, instruction = 1111010011110000, clk = 1, outM = 65535, writeM = 0, addressM =  1000, pcaddr =     9, DRegister = 11110, ARegister =  1000
-t =    10, instruction = 1111010011110000, clk = 0, outM = 54424, writeM = 0, addressM = 65535, pcaddr =    10, DRegister = 65535, ARegister = 65535
-t =    10, instruction = 0000000000001110, clk = 1, outM = 65535, writeM = 0, addressM = 65535, pcaddr =    10, DRegister = 65535, ARegister = 65535
-t =    11, instruction = 0000000000001110, clk = 0, outM =    14, writeM = 0, addressM =    14, pcaddr =    11, DRegister = 65535, ARegister =    14
-t =    11, instruction = 1110001100000100, clk = 1, outM = 65535, writeM = 0, addressM =    14, pcaddr =    11, DRegister = 65535, ARegister =    14
-t =    12, instruction = 1110001100000100, clk = 0, outM = 65535, writeM = 0, addressM =    14, pcaddr =    14, DRegister = 65535, ARegister =    14
-t =    12, instruction = 0000001111100111, clk = 1, outM =     1, writeM = 0, addressM =    14, pcaddr =    14, DRegister = 65535, ARegister =    14
-t =    13, instruction = 0000001111100111, clk = 0, outM =     1, writeM = 0, addressM =   999, pcaddr =    15, DRegister = 65535, ARegister =   999
-t =    13, instruction = 1111110111100000, clk = 1, outM = 11112, writeM = 0, addressM =   999, pcaddr =    15, DRegister = 65535, ARegister =   999
-t =    14, instruction = 1111110111100000, clk = 0, outM = 11112, writeM = 0, addressM = 11112, pcaddr =    16, DRegister = 65535, ARegister = 11112
-t =    14, instruction = 1110001100101000, clk = 1, outM = 65535, writeM = 1, addressM = 11112, pcaddr =    16, DRegister = 65535, ARegister = 11112
-t =    15, instruction = 1110001100101000, clk = 0, outM = 65535, writeM = 1, addressM = 65535, pcaddr =    17, DRegister = 65535, ARegister = 65535
-t =    15, instruction = 0000000000010101, clk = 1, outM = 65535, writeM = 0, addressM = 65535, pcaddr =    17, DRegister = 65535, ARegister = 65535
-t =    16, instruction = 0000000000010101, clk = 0, outM =    21, writeM = 0, addressM =    21, pcaddr =    18, DRegister = 65535, ARegister =    21
-t =    16, instruction = 1110011111000010, clk = 1, outM =     0, writeM = 0, addressM =    21, pcaddr =    18, DRegister = 65535, ARegister =    21
-t =    17, instruction = 1110011111000010, clk = 0, outM =     0, writeM = 0, addressM =    21, pcaddr =    21, DRegister = 65535, ARegister =    21
-t =    17, instruction = 0000000000000010, clk = 1, outM =    21, writeM = 0, addressM =    21, pcaddr =    21, DRegister = 65535, ARegister =    21
-t =    18, instruction = 0000000000000010, clk = 0, outM =     2, writeM = 0, addressM =     2, pcaddr =    22, DRegister = 65535, ARegister =     2
-t =    18, instruction = 1110000010111000, clk = 1, outM =     1, writeM = 1, addressM =     2, pcaddr =    22, DRegister = 65535, ARegister =     2
-t =    19, instruction = 1110000010111000, clk = 0, outM =     2, writeM = 1, addressM =     1, pcaddr =    23, DRegister =     1, ARegister =     1
-t =    19, instruction = 1111110111001000, clk = 1, outM = 11112, writeM = 1, addressM =     1, pcaddr =    23, DRegister =     1, ARegister =     1
-t =    20, instruction = 1111110111001000, clk = 0, outM = 11112, writeM = 1, addressM =     1, pcaddr =    24, DRegister =     1, ARegister =     1
-t =    20, instruction = 1111110010101000, clk = 1, outM = 11110, writeM = 1, addressM =     1, pcaddr =    24, DRegister =     1, ARegister =     1
-t =    21, instruction = 1111110010101000, clk = 0, outM = 11110, writeM = 1, addressM = 11110, pcaddr =    25, DRegister =     1, ARegister = 11110
-t =    21, instruction = 0000001111101000, clk = 1, outM = 65535, writeM = 0, addressM = 11110, pcaddr =    25, DRegister =     1, ARegister = 11110
-t =    22, instruction = 0000001111101000, clk = 0, outM = 65535, writeM = 0, addressM =  1000, pcaddr =    26, DRegister =     1, ARegister =  1000
-t =    22, instruction = 1110111010010000, clk = 1, outM = 65535, writeM = 0, addressM =  1000, pcaddr =    26, DRegister =     1, ARegister =  1000
-t =    23, instruction = 1110111010010000, clk = 0, outM = 65535, writeM = 0, addressM =  1000, pcaddr =    27, DRegister = 65535, ARegister =  1000
-t =    23, instruction = 1110001100000001, clk = 1, outM = 65535, writeM = 0, addressM =  1000, pcaddr =    27, DRegister = 65535, ARegister =  1000
-t =    24, instruction = 1110001100000001, clk = 0, outM = 65535, writeM = 0, addressM =  1000, pcaddr =    28, DRegister = 65535, ARegister =  1000
-t =    24, instruction = 1110001100000010, clk = 1, outM = 65535, writeM = 0, addressM =  1000, pcaddr =    28, DRegister = 65535, ARegister =  1000
-t =    25, instruction = 1110001100000010, clk = 0, outM = 65535, writeM = 0, addressM =  1000, pcaddr =    29, DRegister = 65535, ARegister =  1000
-t =    25, instruction = 1110001100000011, clk = 1, outM = 65535, writeM = 0, addressM =  1000, pcaddr =    29, DRegister = 65535, ARegister =  1000
-t =    26, instruction = 1110001100000011, clk = 0, outM = 65535, writeM = 0, addressM =  1000, pcaddr =    30, DRegister = 65535, ARegister =  1000
-t =    26, instruction = 1110001100000100, clk = 1, outM = 65535, writeM = 0, addressM =  1000, pcaddr =    30, DRegister = 65535, ARegister =  1000
-t =    27, instruction = 1110001100000100, clk = 0, outM = 65535, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister = 65535, ARegister =  1000
-t =    27, instruction = 1110001100000101, clk = 1, outM = 65535, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister = 65535, ARegister =  1000
-t =    28, instruction = 1110001100000101, clk = 0, outM = 65535, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister = 65535, ARegister =  1000
-t =    28, instruction = 1110001100000110, clk = 1, outM = 65535, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister = 65535, ARegister =  1000
-t =    29, instruction = 1110001100000110, clk = 0, outM = 65535, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister = 65535, ARegister =  1000
-t =    29, instruction = 1110001100000111, clk = 1, outM = 65535, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister = 65535, ARegister =  1000
-t =    30, instruction = 1110001100000111, clk = 0, outM = 65535, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister = 65535, ARegister =  1000
-t =    30, instruction = 1110101010010000, clk = 1, outM =     0, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister = 65535, ARegister =  1000
-t =    31, instruction = 1110101010010000, clk = 0, outM =     0, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     0, ARegister =  1000
-t =    31, instruction = 1110001100000001, clk = 1, outM =     0, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     0, ARegister =  1000
-t =    32, instruction = 1110001100000001, clk = 0, outM =     0, writeM = 0, addressM =  1000, pcaddr =  1002, DRegister =     0, ARegister =  1000
-t =    32, instruction = 1110001100000010, clk = 1, outM =     0, writeM = 0, addressM =  1000, pcaddr =  1002, DRegister =     0, ARegister =  1000
-t =    33, instruction = 1110001100000010, clk = 0, outM =     0, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     0, ARegister =  1000
-t =    33, instruction = 1110001100000011, clk = 1, outM =     0, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     0, ARegister =  1000
-t =    34, instruction = 1110001100000011, clk = 0, outM =     0, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     0, ARegister =  1000
-t =    34, instruction = 1110001100000100, clk = 1, outM =     0, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     0, ARegister =  1000
-t =    35, instruction = 1110001100000100, clk = 0, outM =     0, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     0, ARegister =  1000
-t =    35, instruction = 1110001100000101, clk = 1, outM =     0, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     0, ARegister =  1000
-t =    36, instruction = 1110001100000101, clk = 0, outM =     0, writeM = 0, addressM =  1000, pcaddr =  1002, DRegister =     0, ARegister =  1000
-t =    36, instruction = 1110001100000110, clk = 1, outM =     0, writeM = 0, addressM =  1000, pcaddr =  1002, DRegister =     0, ARegister =  1000
-t =    37, instruction = 1110001100000110, clk = 0, outM =     0, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     0, ARegister =  1000
-t =    37, instruction = 1110001100000111, clk = 1, outM =     0, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     0, ARegister =  1000
-t =    38, instruction = 1110001100000111, clk = 0, outM =     0, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     0, ARegister =  1000
-t =    38, instruction = 1110111111010000, clk = 1, outM =     1, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     0, ARegister =  1000
-t =    39, instruction = 1110111111010000, clk = 0, outM =     1, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     1, ARegister =  1000
-t =    39, instruction = 1110001100000001, clk = 1, outM =     1, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     1, ARegister =  1000
-t =    40, instruction = 1110001100000001, clk = 0, outM =     1, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     1, ARegister =  1000
-t =    40, instruction = 1110001100000010, clk = 1, outM =     1, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     1, ARegister =  1000
-t =    41, instruction = 1110001100000010, clk = 0, outM =     1, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     1, ARegister =  1000
-t =    41, instruction = 1110001100000011, clk = 1, outM =     1, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     1, ARegister =  1000
-t =    42, instruction = 1110001100000011, clk = 0, outM =     1, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     1, ARegister =  1000
-t =    42, instruction = 1110001100000100, clk = 1, outM =     1, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     1, ARegister =  1000
-t =    43, instruction = 1110001100000100, clk = 0, outM =     1, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     1, ARegister =  1000
-t =    43, instruction = 1110001100000101, clk = 1, outM =     1, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     1, ARegister =  1000
-t =    44, instruction = 1110001100000101, clk = 0, outM =     1, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     1, ARegister =  1000
-t =    44, instruction = 1110001100000110, clk = 1, outM =     1, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     1, ARegister =  1000
-t =    45, instruction = 1110001100000110, clk = 0, outM =     1, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     1, ARegister =  1000
-t =    45, instruction = 1110001100000111, clk = 1, outM =     1, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     1, ARegister =  1000
-t =    46, instruction = 1110001100000111, clk = 0, outM =     1, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     1, ARegister =  1000
-t =    46, instruction = 1110001100000111, clk = 1, outM =     1, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     1, ARegister =  1000
-t =    47, instruction = 1110001100000111, clk = 0, outM =     1, writeM = 0, addressM =  1000, pcaddr =     0, DRegister =     1, ARegister =  1000
-t =    47, instruction = 0111111111111111, clk = 1, outM =     1, writeM = 0, addressM =  1000, pcaddr =     0, DRegister =     1, ARegister =  1000
-t =    48, instruction = 0111111111111111, clk = 0, outM =     1, writeM = 0, addressM = 32767, pcaddr =     1, DRegister =     1, ARegister = 32767
+t =     0, instruction = 0000000000000000, clk = 0, writeM = 0, addressM =     0, pcaddr =     0, DRegister =     0, ARegister =     0
+t =     0, instruction = 0011000000111001, clk = 1, writeM = 0, addressM =     0, pcaddr =     0, DRegister =     0, ARegister =     0
+t =     1, instruction = 0011000000111001, clk = 0, writeM = 0, addressM = 12345, pcaddr =     1, DRegister =     0, ARegister = 12345
+t =     1, instruction = 1110110000010000, clk = 1, writeM = 0, addressM = 12345, pcaddr =     1, DRegister =     0, ARegister = 12345
+t =     2, instruction = 1110110000010000, clk = 0, writeM = 0, addressM = 12345, pcaddr =     2, DRegister = 12345, ARegister = 12345
+t =     2, instruction = 0101101110100000, clk = 1, writeM = 0, addressM = 12345, pcaddr =     2, DRegister = 12345, ARegister = 12345
+t =     3, instruction = 0101101110100000, clk = 0, writeM = 0, addressM = 23456, pcaddr =     3, DRegister = 12345, ARegister = 23456
+t =     3, instruction = 1110000111110000, clk = 1, writeM = 0, addressM = 23456, pcaddr =     3, DRegister = 12345, ARegister = 23456
+t =     4, instruction = 1110000111110000, clk = 0, writeM = 0, addressM = 11111, pcaddr =     4, DRegister = 11111, ARegister = 11111
+t =     4, instruction = 0000001111101011, clk = 1, writeM = 0, addressM = 11111, pcaddr =     4, DRegister = 11111, ARegister = 11111
+t =     5, instruction = 0000001111101011, clk = 0, writeM = 0, addressM =  1003, pcaddr =     5, DRegister = 11111, ARegister =  1003
+t =     5, instruction = 1110001100001000, clk = 1, writeM = 1, addressM =  1003, pcaddr =     5, DRegister = 11111, ARegister =  1003
+t =     6, instruction = 1110001100001000, clk = 0, writeM = 1, addressM =  1003, pcaddr =     6, DRegister = 11111, ARegister =  1003
+t =     6, instruction = 0000001111101100, clk = 1, writeM = 0, addressM =  1003, pcaddr =     6, DRegister = 11111, ARegister =  1003
+t =     7, instruction = 0000001111101100, clk = 0, writeM = 0, addressM =  1004, pcaddr =     7, DRegister = 11111, ARegister =  1004
+t =     7, instruction = 1110001110011000, clk = 1, writeM = 1, addressM =  1004, pcaddr =     7, DRegister = 11111, ARegister =  1004
+t =     8, instruction = 1110001110011000, clk = 0, writeM = 1, addressM =  1004, pcaddr =     8, DRegister = 11110, ARegister =  1004
+t =     8, instruction = 0000001111101000, clk = 1, writeM = 0, addressM =  1004, pcaddr =     8, DRegister = 11110, ARegister =  1004
+t =     9, instruction = 0000001111101000, clk = 0, writeM = 0, addressM =  1000, pcaddr =     9, DRegister = 11110, ARegister =  1000
+t =     9, instruction = 1111010011110000, clk = 1, writeM = 0, addressM =  1000, pcaddr =     9, DRegister = 11110, ARegister =  1000
+t =    10, instruction = 1111010011110000, clk = 0, writeM = 0, addressM = 32767, pcaddr =    10, DRegister = 65535, ARegister = 65535
+t =    10, instruction = 0000000000001110, clk = 1, writeM = 0, addressM = 32767, pcaddr =    10, DRegister = 65535, ARegister = 65535
+t =    11, instruction = 0000000000001110, clk = 0, writeM = 0, addressM =    14, pcaddr =    11, DRegister = 65535, ARegister =    14
+t =    11, instruction = 1110001100000100, clk = 1, writeM = 0, addressM =    14, pcaddr =    11, DRegister = 65535, ARegister =    14
+t =    12, instruction = 1110001100000100, clk = 0, writeM = 0, addressM =    14, pcaddr =    14, DRegister = 65535, ARegister =    14
+t =    12, instruction = 0000001111100111, clk = 1, writeM = 0, addressM =    14, pcaddr =    14, DRegister = 65535, ARegister =    14
+t =    13, instruction = 0000001111100111, clk = 0, writeM = 0, addressM =   999, pcaddr =    15, DRegister = 65535, ARegister =   999
+t =    13, instruction = 1111110111100000, clk = 1, writeM = 0, addressM =   999, pcaddr =    15, DRegister = 65535, ARegister =   999
+t =    14, instruction = 1111110111100000, clk = 0, writeM = 0, addressM = 11112, pcaddr =    16, DRegister = 65535, ARegister = 11112
+t =    14, instruction = 1110001100101000, clk = 1, writeM = 1, addressM = 11112, pcaddr =    16, DRegister = 65535, ARegister = 11112
+t =    15, instruction = 1110001100101000, clk = 0, writeM = 1, addressM = 32767, pcaddr =    17, DRegister = 65535, ARegister = 65535
+t =    15, instruction = 0000000000010101, clk = 1, writeM = 0, addressM = 32767, pcaddr =    17, DRegister = 65535, ARegister = 65535
+t =    16, instruction = 0000000000010101, clk = 0, writeM = 0, addressM =    21, pcaddr =    18, DRegister = 65535, ARegister =    21
+t =    16, instruction = 1110011111000010, clk = 1, writeM = 0, addressM =    21, pcaddr =    18, DRegister = 65535, ARegister =    21
+t =    17, instruction = 1110011111000010, clk = 0, writeM = 0, addressM =    21, pcaddr =    21, DRegister = 65535, ARegister =    21
+t =    17, instruction = 0000000000000010, clk = 1, writeM = 0, addressM =    21, pcaddr =    21, DRegister = 65535, ARegister =    21
+t =    18, instruction = 0000000000000010, clk = 0, writeM = 0, addressM =     2, pcaddr =    22, DRegister = 65535, ARegister =     2
+t =    18, instruction = 1110000010111000, clk = 1, writeM = 1, addressM =     2, pcaddr =    22, DRegister = 65535, ARegister =     2
+t =    19, instruction = 1110000010111000, clk = 0, writeM = 1, addressM =     1, pcaddr =    23, DRegister =     1, ARegister =     1
+t =    19, instruction = 1111110111001000, clk = 1, writeM = 1, addressM =     1, pcaddr =    23, DRegister =     1, ARegister =     1
+t =    20, instruction = 1111110111001000, clk = 0, writeM = 1, addressM =     1, pcaddr =    24, DRegister =     1, ARegister =     1
+t =    20, instruction = 1111110010101000, clk = 1, writeM = 1, addressM =     1, pcaddr =    24, DRegister =     1, ARegister =     1
+t =    21, instruction = 1111110010101000, clk = 0, writeM = 1, addressM = 11110, pcaddr =    25, DRegister =     1, ARegister = 11110
+t =    21, instruction = 0000001111101000, clk = 1, writeM = 0, addressM = 11110, pcaddr =    25, DRegister =     1, ARegister = 11110
+t =    22, instruction = 0000001111101000, clk = 0, writeM = 0, addressM =  1000, pcaddr =    26, DRegister =     1, ARegister =  1000
+t =    22, instruction = 1110111010010000, clk = 1, writeM = 0, addressM =  1000, pcaddr =    26, DRegister =     1, ARegister =  1000
+t =    23, instruction = 1110111010010000, clk = 0, writeM = 0, addressM =  1000, pcaddr =    27, DRegister = 65535, ARegister =  1000
+t =    23, instruction = 1110001100000001, clk = 1, writeM = 0, addressM =  1000, pcaddr =    27, DRegister = 65535, ARegister =  1000
+t =    24, instruction = 1110001100000001, clk = 0, writeM = 0, addressM =  1000, pcaddr =    28, DRegister = 65535, ARegister =  1000
+t =    24, instruction = 1110001100000010, clk = 1, writeM = 0, addressM =  1000, pcaddr =    28, DRegister = 65535, ARegister =  1000
+t =    25, instruction = 1110001100000010, clk = 0, writeM = 0, addressM =  1000, pcaddr =    29, DRegister = 65535, ARegister =  1000
+t =    25, instruction = 1110001100000011, clk = 1, writeM = 0, addressM =  1000, pcaddr =    29, DRegister = 65535, ARegister =  1000
+t =    26, instruction = 1110001100000011, clk = 0, writeM = 0, addressM =  1000, pcaddr =    30, DRegister = 65535, ARegister =  1000
+t =    26, instruction = 1110001100000100, clk = 1, writeM = 0, addressM =  1000, pcaddr =    30, DRegister = 65535, ARegister =  1000
+t =    27, instruction = 1110001100000100, clk = 0, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister = 65535, ARegister =  1000
+t =    27, instruction = 1110001100000101, clk = 1, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister = 65535, ARegister =  1000
+t =    28, instruction = 1110001100000101, clk = 0, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister = 65535, ARegister =  1000
+t =    28, instruction = 1110001100000110, clk = 1, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister = 65535, ARegister =  1000
+t =    29, instruction = 1110001100000110, clk = 0, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister = 65535, ARegister =  1000
+t =    29, instruction = 1110001100000111, clk = 1, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister = 65535, ARegister =  1000
+t =    30, instruction = 1110001100000111, clk = 0, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister = 65535, ARegister =  1000
+t =    30, instruction = 1110101010010000, clk = 1, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister = 65535, ARegister =  1000
+t =    31, instruction = 1110101010010000, clk = 0, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     0, ARegister =  1000
+t =    31, instruction = 1110001100000001, clk = 1, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     0, ARegister =  1000
+t =    32, instruction = 1110001100000001, clk = 0, writeM = 0, addressM =  1000, pcaddr =  1002, DRegister =     0, ARegister =  1000
+t =    32, instruction = 1110001100000010, clk = 1, writeM = 0, addressM =  1000, pcaddr =  1002, DRegister =     0, ARegister =  1000
+t =    33, instruction = 1110001100000010, clk = 0, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     0, ARegister =  1000
+t =    33, instruction = 1110001100000011, clk = 1, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     0, ARegister =  1000
+t =    34, instruction = 1110001100000011, clk = 0, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     0, ARegister =  1000
+t =    34, instruction = 1110001100000100, clk = 1, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     0, ARegister =  1000
+t =    35, instruction = 1110001100000100, clk = 0, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     0, ARegister =  1000
+t =    35, instruction = 1110001100000101, clk = 1, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     0, ARegister =  1000
+t =    36, instruction = 1110001100000101, clk = 0, writeM = 0, addressM =  1000, pcaddr =  1002, DRegister =     0, ARegister =  1000
+t =    36, instruction = 1110001100000110, clk = 1, writeM = 0, addressM =  1000, pcaddr =  1002, DRegister =     0, ARegister =  1000
+t =    37, instruction = 1110001100000110, clk = 0, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     0, ARegister =  1000
+t =    37, instruction = 1110001100000111, clk = 1, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     0, ARegister =  1000
+t =    38, instruction = 1110001100000111, clk = 0, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     0, ARegister =  1000
+t =    38, instruction = 1110111111010000, clk = 1, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     0, ARegister =  1000
+t =    39, instruction = 1110111111010000, clk = 0, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     1, ARegister =  1000
+t =    39, instruction = 1110001100000001, clk = 1, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     1, ARegister =  1000
+t =    40, instruction = 1110001100000001, clk = 0, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     1, ARegister =  1000
+t =    40, instruction = 1110001100000010, clk = 1, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     1, ARegister =  1000
+t =    41, instruction = 1110001100000010, clk = 0, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     1, ARegister =  1000
+t =    41, instruction = 1110001100000011, clk = 1, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     1, ARegister =  1000
+t =    42, instruction = 1110001100000011, clk = 0, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     1, ARegister =  1000
+t =    42, instruction = 1110001100000100, clk = 1, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     1, ARegister =  1000
+t =    43, instruction = 1110001100000100, clk = 0, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     1, ARegister =  1000
+t =    43, instruction = 1110001100000101, clk = 1, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     1, ARegister =  1000
+t =    44, instruction = 1110001100000101, clk = 0, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     1, ARegister =  1000
+t =    44, instruction = 1110001100000110, clk = 1, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     1, ARegister =  1000
+t =    45, instruction = 1110001100000110, clk = 0, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     1, ARegister =  1000
+t =    45, instruction = 1110001100000111, clk = 1, writeM = 0, addressM =  1000, pcaddr =  1001, DRegister =     1, ARegister =  1000
+t =    46, instruction = 1110001100000111, clk = 0, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     1, ARegister =  1000
+t =    46, instruction = 1110001100000111, clk = 1, writeM = 0, addressM =  1000, pcaddr =  1000, DRegister =     1, ARegister =  1000
+t =    47, instruction = 1110001100000111, clk = 0, writeM = 0, addressM =  1000, pcaddr =     0, DRegister =     1, ARegister =  1000
+t =    47, instruction = 0111111111111111, clk = 1, writeM = 0, addressM =  1000, pcaddr =     0, DRegister =     1, ARegister =  1000
+t =    48, instruction = 0111111111111111, clk = 0, writeM = 0, addressM = 32767, pcaddr =     1, DRegister =     1, ARegister = 32767
