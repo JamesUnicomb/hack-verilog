@@ -133,13 +133,6 @@ module cpu (
     A_reg_write <= ni | instruction[5];
     D_reg_write <= instruction[15] & instruction[4];
     
-    // register inputs
-    // Not(in=instruction[15],out=ni);
-    // Mux16(a=outtM,b=instruction,sel=ni,out=i);
-
-    // Or(a=ni,b=instruction[5],out=intoA);
-    // ARegister(in=i,load=intoA,out=A,out[0..14]=addressM);
-  
     D_reg_in <= outM;
     
     // pc input logic   

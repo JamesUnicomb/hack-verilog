@@ -1,6 +1,6 @@
 module test;
 
-  reg                 clk = 1;
+  reg                 clk = 0;
   reg  [15:0]           t = 0;
   reg  [15:0]         inM = 0;
   reg  [15:0] instruction = 16'b0000000000000000;
