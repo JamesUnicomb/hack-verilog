@@ -503,6 +503,6 @@ module test;
 end
 
   initial
-     $monitor("t = %d, instruction = %b, clk = %b, writeM = %b, addressM = %d, pcaddr = %d, DRegister = %d, ARegister = %d",
-              t, instruction, clk, writeM, addressM, pcaddr, D_reg_out, A_reg_out);
+     $monitor("t = %d, instruction = %b, clk = %b, outM = %d, writeM = %b, addressM = %d, pcaddr = %d, DRegister = %d, ARegister = %d",
+              t, instruction, clk, outM, writeM, addressM, pcaddr, D_reg_out, A_reg_out);
 endmodule
