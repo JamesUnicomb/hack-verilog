@@ -7,8 +7,12 @@ device.baudrate = 1000000
 device.open()
 
 def send(key):
-    c = '{0}'.format(key.char)
-    device.write(c)
+    try:
+        c = '{0}'.format(key.char)
+        device.write(c)
+    except AttributeError:
+        c = '{0}'.format(key)
+        device.write(c)
 
 with Listener(on_press=send, suppress=True) as listener:   
     listener.join()
