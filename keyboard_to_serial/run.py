@@ -14,6 +14,7 @@ def on_press(key):
         c = '{0}'.format(key)
         device.write(c)
         if key == keyboard.Key.esc:
+            device.write('\0')
             return False
 
 def on_release(key):
