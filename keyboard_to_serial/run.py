@@ -6,7 +6,7 @@ device.baudrate = 1000000
 
 device.open()
 
-def send(key):
+def on_press(key):
     try:
         c = '{0}'.format(key.char)
         device.write(c)
@@ -16,7 +16,11 @@ def send(key):
         if key == keyboard.Key.esc:
             return False
 
-with keyboard.Listener(on_press=send, suppress=True) as listener:   
+def on_release(key):
+    c = '\0'
+    device.write(c)
+
+with keyboard.Listener(on_press=on_press, on_release=on_release, suppress=True) as listener:   
     listener.join()
 
 device.close()
