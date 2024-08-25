@@ -1,4 +1,4 @@
-from pynput.keyboard import Key, Listener
+from pynput import keyboard
 from pylibftdi import Device
 
 device = Device(interface_select=2)
@@ -13,8 +13,10 @@ def send(key):
     except AttributeError:
         c = '{0}'.format(key)
         device.write(c)
+        if key == keyboard.Key.esc:
+            return False
 
-with Listener(on_press=send, suppress=True) as listener:   
+with keyboard.Listener(on_press=send, suppress=True) as listener:   
     listener.join()
 
 device.close()
